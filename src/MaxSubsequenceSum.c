@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include "module1.h"
 
 int MaxSubsequenceSum1( const int A[], int N)
 {
