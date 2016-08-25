@@ -1,5 +1,6 @@
-#include "unity.h"
 #include "module1.h"
+#include "testModule1.h"
+#include "utility.h"
 
 void test_MaxSubsequenceSum1(void)
 {
@@ -7,10 +8,10 @@ void test_MaxSubsequenceSum1(void)
   TEST_ASSERT_EQUAL_INT(20, MaxSubsequenceSum1(test_array, 6));
 }
 
-
-int main(void)
+void test_MaxSubsequenceSum2(void)
 {
-  UNITY_BEGIN();
-  RUN_TEST(test_MaxSubsequenceSum1);
-  return UNITY_END();
+  int test_array[6] = {-2,11,-4,13,-5,-2};
+  TEST_ASSERT_EQUAL_INT(20, MaxSubsequenceSum2(test_array, 6));
 }
+
+
