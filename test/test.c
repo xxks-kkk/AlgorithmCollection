@@ -13,6 +13,7 @@ int main(void)
   printf( "Test:: Module1\n" );
   RUN_TEST(test_MaxSubsequenceSum1);
   RUN_TEST(test_MaxSubsequenceSum2);
+  RUN_TEST(test_MaxSubsequenceSum3);
   UNITY_END();
   printf( "\n" );
 
