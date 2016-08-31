@@ -64,9 +64,11 @@ int MaxSubsequenceSum2( const int A[], int N )
 }
 
 /*
- * Idea    : 
- * Big-O   : 
- * Remarks :
+ * Idea    : the maximum subsequence sum can be in one of three places. Either
+ *           it occurs entirely in the left half of the input, or entirely in the
+ *           right half, or it crosses the middle and is in both halves.
+ * Big-O   : O(NlogN)
+ * Remarks : a "divide-and-conquer" strategy
  */
 
 static int MaxSubSum( const int A[], int Left, int Right )

@@ -14,6 +14,7 @@ int main(void)
   RUN_TEST(test_MaxSubsequenceSum1);
   RUN_TEST(test_MaxSubsequenceSum2);
   RUN_TEST(test_MaxSubsequenceSum3);
+  RUN_TEST(test_MaxSubsequenceSum4);
   UNITY_END();
   printf( "\n" );
 
