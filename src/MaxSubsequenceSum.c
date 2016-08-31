@@ -121,3 +121,35 @@ int MaxSubsequenceSum3( const int A[], int N )
 {
   return MaxSubSum( A, 0, N - 1 );
 }
+
+/*
+ * Idea    : ?
+ * Big-O   : O(N)
+ * Remarks : 1. the algorithm only one pass through the data, and once A[i] is
+ *              read and processed, it does not need to be remembered. Thus, if 
+ *              the array is on a disk or tape, it can be read sequentially, and 
+ *              there is no need to store any part of it in main memory.
+ *           2. at any point in time, the algorithm can correctly give an answer
+ *              to the subsequence problem for the data it has already read.
+ */
+
+int MaxSubsequenceSum4( const int A[], int N )
+{
+  int ThisSum, MaxSum, j;
+
+  ThisSum = MaxSum = 0;
+  for( j = 0; j < N; j++ )
+  {
+    ThisSum += A[ j ];
+
+    if( ThisSum > MaxSum )
+    {
+      MaxSum = ThisSum;
+    }
+    else if( ThisSum < 0 )
+    {
+      ThisSum = 0;
+    }
+  }
+  return MaxSum;
+}
