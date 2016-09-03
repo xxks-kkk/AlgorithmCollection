@@ -1,6 +1,7 @@
 #include "testModule1.h"
 
 int test_array[6] = {-2,11,-4,13,-5,-2};
+int test_array_sorted[6] = {-5,-4,-2,11,13};
 
 void test_MaxSubsequenceSum1(void)
 { 
@@ -24,7 +25,7 @@ void test_MaxSubsequenceSum4(void)
 
 void test_BinarySearch(void)
 {
-  TEST_ASSERT_EQUAL_INT(1, BinarySearch(test_array, 11, 6));
-  TEST_ASSERT_EQUAL_INT(NotFound, BinarySearch(test_array, 0, 6));
+  TEST_ASSERT_EQUAL_INT(2, BinarySearch(test_array_sorted, -2, 5));
+  TEST_ASSERT_EQUAL_INT(-1, BinarySearch(test_array, 0, 6));
 }
 

@@ -7,7 +7,7 @@
 
 /*
  * Idea    : 
- * Big-O   : 
+ * Big-O   : O(logN)
  * Remarks : We assume the input is a pre-sorted list of integers
  */
 
@@ -32,5 +32,5 @@ int BinarySearch( const int A[], int X, int N)
       return Mid; /* Found */
     }
   }
-  return NotFound;
+  return -1; /* -1 indicates "Not found" */
 }
