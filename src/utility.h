@@ -1,5 +1,9 @@
 
 /*
+ * Contains utility functions used across all modules
+ */
+
+/*
  * return the max of three values
  */
 

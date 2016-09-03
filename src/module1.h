@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include "const.h"
 
 /*
  * Module 1 : Algorithms not using any significant data structures
