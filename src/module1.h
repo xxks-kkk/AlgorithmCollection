@@ -19,3 +19,8 @@ int MaxSubsequenceSum4( const int A[], int N);
  */
 
 int BinarySearch( const int A[], int X, int N);
+
+/*
+ * Euclid's Algorithm
+ */
+unsigned int GCD( unsigned int N, unsigned int M);

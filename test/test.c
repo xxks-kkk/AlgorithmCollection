@@ -16,6 +16,7 @@ int main(void)
   RUN_TEST(test_MaxSubsequenceSum3);
   RUN_TEST(test_MaxSubsequenceSum4);
   RUN_TEST(test_BinarySearch);
+  RUN_TEST(test_GCD);
   UNITY_END();
   printf( "\n" );
 

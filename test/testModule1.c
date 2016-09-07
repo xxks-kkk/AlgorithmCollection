@@ -29,3 +29,8 @@ void test_BinarySearch(void)
   TEST_ASSERT_EQUAL_INT(-1, BinarySearch(test_array, 0, 6));
 }
 
+void test_GCD(void)
+{
+  TEST_ASSERT_EQUAL_INT(5, GCD(50,15));
+  TEST_ASSERT_EQUAL_INT(3, GCD(1989,1590));
+}

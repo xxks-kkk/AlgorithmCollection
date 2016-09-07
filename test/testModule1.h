@@ -8,3 +8,5 @@ void test_MaxSubsequenceSum3(void);
 void test_MaxSubsequenceSum4(void);
 
 void test_BinarySearch(void);
+
+void test_GCD(void);
