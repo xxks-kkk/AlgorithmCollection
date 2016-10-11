@@ -8,6 +8,7 @@ int main(void)
   printf( "Test:: Utility\n" );
   UNITY_BEGIN();
   RUN_TEST(test_Max3);
+  RUN_TEST(test_Pow);
   printf( "\n" );
   
   printf( "Test:: Module1\n" );

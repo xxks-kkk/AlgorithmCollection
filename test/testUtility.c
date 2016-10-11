@@ -9,5 +9,9 @@ void test_Max3(void)
 }
 
 
-
+void test_Pow(void)
+{
+  TEST_ASSERT_EQUAL_INT(1, Pow(1,2));
+  TEST_ASSERT_EQUAL_INT(8, Pow(2,3));
+}
 

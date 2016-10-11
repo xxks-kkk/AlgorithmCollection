@@ -18,3 +18,18 @@ int Max3( int A, int B, int C )
   ( void )( ( m < C ) && ( m = C ) );
   return m;
 }
+
+/*
+ * Idea    : 
+ * Big-O   : O(logN)
+ * Remarks : We count the number of multiplications as the measurement of running time
+ */
+long int Pow( long int X, unsigned int N )
+{
+  if ( N == 0 )
+    return 1;
+  if ( N % 2 == 0 )
+    return Pow( X * X, N/2);
+  else
+    return Pow( X * X, N/2) * X;
+}
