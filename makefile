@@ -35,11 +35,22 @@ CFLAGS = -Wall
 # supplements to gcc commands
 TARGET_BASE1=all_tests
 TARGET1 = $(TARGET_BASE1)$(TARGET_EXTENSION)
-INC_DIRS=-I$(PATHU) -I$(PATHS) -I$(PATHT)
+INC_DIRS=\
+  -I$(PATHU) \
+  -I$(PATHT) \
+  -I$(PATHT)testModule1 \
+  -I$(PATHT)testUtility \
+  -I$(PATHS)module1 \
+  -I$(PATHS)utility \
+  -I$(PATHS) \
+
 SRC_FILES1=\
+  $(wildcard $(PATHU)*.c) \
   $(wildcard $(PATHT)*.c) \
+  $(wildcard $(PATHT)*/*.c) \
   $(wildcard $(PATHS)*.c) \
-  $(wildcard $(PATHU)*.c)
+  $(wildcard $(PATHS)*/*.c) \
+
 
 
 .PHONY: clean
