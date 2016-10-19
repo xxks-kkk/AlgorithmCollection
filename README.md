@@ -34,6 +34,6 @@ Collecting Algorithm and implement them in C
 │       └── testUtility.h
 └── unity
     ├── unity.c
-        ├── unity.h
-            └── unity_internals.h
+    ├── unity.h
+    └── unity_internals.h
 ```
