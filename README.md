@@ -2,13 +2,6 @@
 
 Collecting Algorithm and implement them in C
 
-## Algorithm Collected
-
-- BinarySearch
-- GCD
-- MaxSubsequenceSum
-
-
 ## Repo Structure
 
 ```
@@ -37,3 +30,11 @@ Collecting Algorithm and implement them in C
     ├── unity.h
     └── unity_internals.h
 ```
+
+## Algorithm Collected
+
+- BinarySearch
+- GCD
+- MaxSubsequenceSum
+
+
