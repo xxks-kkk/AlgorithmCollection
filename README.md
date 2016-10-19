@@ -1,6 +1,6 @@
 # AlgorithmCollection
 
-Collecting Algorithm and implement them in C
+Collect algorithms, data structures, and implement them in C
 
 ## Repo Structure
 
@@ -34,7 +34,7 @@ Collecting Algorithm and implement them in C
 ## Algorithm Collected
 
 - BinarySearch
-- GCD
+- Euclid's Algorithm
 - MaxSubsequenceSum
 
 
