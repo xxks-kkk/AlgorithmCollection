@@ -18,6 +18,7 @@ int main(void)
   RUN_TEST(test_MaxSubsequenceSum4);
   RUN_TEST(test_BinarySearch);
   RUN_TEST(test_GCD);
+  RUN_TEST(test_MinSubsequenceSum);
   UNITY_END();
   printf( "\n" );
 

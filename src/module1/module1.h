@@ -25,3 +25,9 @@ int BinarySearch( const int A[], int X, int N);
  */
 
 unsigned int GCD( unsigned int N, unsigned int M);
+
+/*
+ * Maximum Subsequence Sum Problem variations
+ */
+
+int MinSubsequenceSum(const int A[], int N );

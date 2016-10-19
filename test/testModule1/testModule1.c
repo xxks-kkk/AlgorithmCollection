@@ -34,3 +34,8 @@ void test_GCD(void)
   TEST_ASSERT_EQUAL_INT(5, GCD(50,15));
   TEST_ASSERT_EQUAL_INT(3, GCD(1989,1590));
 }
+
+void test_MinSubsequenceSum(void)
+{
+  TEST_ASSERT_EQUAL_INT(-7, MinSubsequenceSum(test_array, 6));
+}
