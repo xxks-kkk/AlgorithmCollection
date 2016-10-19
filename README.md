@@ -5,7 +5,6 @@ Collect algorithms, data structures, and implement them in C
 ## Repo Structure
 
 ```
-.
 ├── makefile
 ├── README.md
 ├── src
@@ -13,6 +12,7 @@ Collect algorithms, data structures, and implement them in C
 │   │   ├── BinarySearch.c
 │   │   ├── GCD.c
 │   │   ├── MaxSubsequenceSum.c
+│   │   ├── MaxSubsequenceSumVariation.c
 │   │   └── module1.h
 │   └── utility
 │       ├── utility.c
@@ -28,13 +28,15 @@ Collect algorithms, data structures, and implement them in C
 └── unity
     ├── unity.c
     ├── unity.h
-    └── unity_internals.h
+    └── unity_internals.h        
 ```
 
 ## Algorithm Collected
 
-- BinarySearch
+
+- Binary search
 - Euclid's Algorithm
-- MaxSubsequenceSum
+- Max subsequence sum
+  - Minimum subsequence sum 
 
 
