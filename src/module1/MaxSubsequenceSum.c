@@ -3,6 +3,10 @@
 
 /*
  * the Maximum Subsequence Sum Problem
+ * 
+ * .. seealso::
+ *  
+ *     https://en.wikipedia.org/wiki/Maximum_subarray_problem
  */
 
 /*
@@ -131,6 +135,7 @@ int MaxSubsequenceSum3( const int A[], int N )
  *              there is no need to store any part of it in main memory.
  *           2. at any point in time, the algorithm can correctly give an answer
  *              to the subsequence problem for the data it has already read.
+ *           3. known as "Kadane's algorithm"
  */
 
 int MaxSubsequenceSum4( const int A[], int N )
