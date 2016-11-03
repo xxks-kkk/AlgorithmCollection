@@ -1,3 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/************************
+ * Macros
+ ************************/
+
+#define Error( Str )       FatalError( Str )
+#define FatalError( Str )  fprintf( stderr, "%s\n", Str ), exit( 1 )
+
+
+/************************
+ * Utility Functions
+ ************************/
 
 /*
  * Contains utility functions used across all modules
